@@ -3,8 +3,7 @@
 Code for the paper *TRACER: A Multimodal Harness for Patient Care in
 Hospitals* (Durante, Tang, Chandrasegaran, et al., Stanford University).
 
-TRACER answers clinical questions about a hospital stay from continuous
-two-camera bedside video and the electronic health record. A perception VLM
+TRACER answers clinical questions about a hospital stay from continuous bedside video and the electronic health record. A perception VLM
 labels every minute of video with 15 atomic actions, a report LM summarizes
 every hour, and an agent LM answers questions by calling eleven tools over the
 minute-level timeline, the hourly reports, the EHR, and the raw video. None of
