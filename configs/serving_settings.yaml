@@ -1,0 +1,104 @@
+# Sampling and serving settings per model, as reported in the paper appendix
+# ("Model Instantiation and Computational Cost" / "Sampling and serving
+# settings"). Settings were read from the run configurations and launch
+# scripts of the reported runs. Where this repository exposes a setting, the
+# environment variable or flag that controls it is given.
+
+gemini_models:
+  roles: [perception benchmark, cohort perception run, report model, agent, frames baseline, socratic baseline]
+  generation_config: none   # temperature, top-p, top-k, output length and thinking follow each model's API defaults
+  note: >
+    The five repeated perception runs differ only in their output directory
+    (--run N), so their spread reflects default API sampling alone. Gemini
+    agents have no output cap.
+  auth: GEMINI_API_KEY (AI Studio) or GEMINI_AUTH=adc + GOOGLE_CLOUD_PROJECT (Vertex AI, location "global")
+
+open_weight_perception_models:   # clip benchmark: Qwen3-VL 8B, Qwen3.5 4B/9B, Gemma-4 E4B
+  dtype: bfloat16
+  temperature: 0.6
+  top_p: 0.95
+  top_k: 20
+  max_new_tokens: 2048
+  thinking: disabled
+  note: run with the same perception prompt (prompts/perception_prompt.yaml); the local
+        inference driver for these models is not part of this release (see docs/PORTING_NOTES.md)
+
+open_weight_baselines:   # long-context frames and Socratic, Qwen3-VL 8B
+  decoding: greedy
+  dtype: bfloat16
+  socratic_captioner_frames_per_clip: 30      # tracer/eval/standalone/socratic_caption_vlm.py --frames-per-clip 30
+  frames_baseline: tracer/eval/standalone/run_local_vlm.py (--frame-stride 2 for 475 of 950 frames)
+
+agent_loop:   # every agent model
+  max_turns: 25                    # AGENT_MAX_TURNS
+  max_tool_calls: 25               # AGENT_MAX_TOOL_CALLS; then the forced-choice message with no tools
+  malformed_call_retries: 3
+  tool_result_chars: 16000         # TOOL_RESULT_CHARS (OpenAI-compatible path)
+  transcript_chars: 100000         # TRANSCRIPT_CHARS (OpenAI-compatible path)
+  prompt_variant: guided           # AGENT_PROMPT_VARIANT=guided (default) | base
+  video_description: D2            # VIDEO_DESC_VARIANT
+
+open_weight_agents:   # served with vLLM, OPENAI_BASE_URL=http://<host>:<port>/v1
+  output_cap_tokens_per_turn: 8192   # OPENAI_MAX_TOKENS
+  qwen3.5-9b:
+    dtype: fp16
+    max_model_len: 65536
+    thinking: disabled through the chat template
+    launch: >
+      vllm serve Qwen/Qwen3.5-9B --served-model-name qwen3.5-9b --dtype float16
+      --max-model-len 65536 --enable-auto-tool-choice
+      --tool-call-parser hermes
+  qwen3-vl-8b:
+    dtype: bfloat16
+    max_model_len: 131072
+    launch: >
+      vllm serve Qwen/Qwen3-VL-8B-Instruct --served-model-name qwen3-vl-8b --dtype bfloat16
+      --max-model-len 131072 --enable-auto-tool-choice --tool-call-parser hermes
+  gpt-oss-20b:
+    dtype: bfloat16
+    max_model_len: 131072
+    reasoning_effort: low
+    tool_parser: openai (harmony)
+    video_tool: served by Gemini 3.1 Flash Lite (VIDEO_TOOL_MODEL=gemini-3.1-flash-lite)
+    note: 6.8% of its tool calls arrived with a parser artifact (a channel tag appended to the tool
+          name) that the harness rejected as an unknown tool, after which the model reissued a clean call
+  gemma-4-31b:
+    dtype: bfloat16
+    max_model_len: 131072
+    thinking: disabled
+    tool_parser: gemma4
+    video_tool: served by Gemini 3.1 Flash Lite (its own vision tower is present but unused)
+
+video_tool:
+  gemini_path:
+    input: original one-minute clip
+    sampling_fps_hint: 5             # VIDEO_TOOL_GEMINI_FPS; the API default of 1 fps misses brief motion
+    token_cost: 4.5x the 1 fps default
+  openai_path:
+    reencode_fps: 2                  # VIDEO_TOOL_FPS
+    max_side_px: 512                 # VIDEO_TOOL_MAX_SIDE (512x288 for the 16:9 cameras)
+  both_views: queried in parallel with the same prompt; both answers returned
+  perceiver_override: VIDEO_TOOL_MODEL (empty = the agent's own model)
+
+cohort_perception_run:
+  model: gemini-3.1-flash-lite
+  settings: API defaults, prompts/perception_prompt.yaml, every minute of every stay, both cameras
+  merge: logical OR over the 15 labels across the two views; UNABLE TO IDENTIFY treated as negative
+
+report_model:
+  model: gemini-3.1-flash-lite
+  settings: API defaults, prompts/report_hourly_v1.yaml, run over the two benchmark stays only
+
+long_context_frames_baseline:
+  frames: [475, 950]
+  sampling: uniform over the stay's minute clips, midpoint of each selected clip, left camera
+            (right only where the left clip is missing)
+  frame_size: longer side 512 px (512x288)
+  tokens_per_frame: {gemini-3.1-flash-lite: 1120, qwen3-vl-8b: 144}
+
+socratic_baseline:
+  captioner_fps: {gemini: 1 (API default), qwen3-vl-8b: 30 frames per clip}
+  camera: left only
+  subsampling: fixed linear stride; Gemini budget 286 tokens per caption in a 1M window;
+               open-weight answerers measure tokens per caption on their tokenizer and use
+               the served context less the answer budget (1024; 8192 for gpt-oss-20b)

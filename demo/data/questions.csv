@@ -1,0 +1,19 @@
+PAT_ID,Original Question,Distractors (4)
+stay_A,"Q: At what time (site-local, HH:MM) did the patient first grab medical equipment during the stay?
+
+A: 08:37","08:12
+09:04
+09:41
+10:23"
+stay_A,"Q: How many doses of acetaminophen were given during the stay?
+
+A: 2","0
+1
+3
+4"
+stay_A,"Q: During which hour index (hours from admission) did clinician contact occupy the most minutes, and what RASS score was recorded during that hour?
+
+A: Hour 1; RASS -2","Hour 0; RASS 0
+Hour 2; RASS -2
+Hour 1; RASS 0
+Hour 2; RASS -1"

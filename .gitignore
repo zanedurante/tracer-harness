@@ -1,0 +1,34 @@
+# outputs of runs and the demo
+results/
+cache/
+/data/
+demo/out/
+bundles/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# credentials (never commit keys)
+*.key
+.env
+
+# editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.pytest_cache/
+
+# quickstart inputs (the sample video is ~1.7 GB) and the clips cut from it;
+# the rest of demo/quickstart/ (perception outputs, timeline, hourly report,
+# EHR tables) is committed so the viewer runs without a Gemini API key
+demo/video/
+demo/quickstart/video/
+demo/quickstart/results/
+demo/quickstart/cache/

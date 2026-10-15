@@ -1,0 +1,3 @@
+pat_id,display_name,taken_time,mar_action,sig,dose_unit,route,infusion_rate,mar_inf_rate_unit,pharm_class_name,thera_class_name
+stay_A,acetaminophen 325 mg tablet,2026-10-16 08:20:00,Given,650,mg,Oral,,,"ANALGESICS, NON-OPIOID",ANALGESICS
+stay_A,fentanyl 50 mcg/mL injection,2026-10-16 08:40:00,Bolus,25,mcg,Intravenous,,,OPIOID AGONISTS,ANALGESICS

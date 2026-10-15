@@ -1,0 +1,28 @@
+pat_id,row_disp_name,recorded_time,meas_value,units
+stay_A,Heart Rate,2030-01-01 08:00:00,78,bpm
+stay_A,SpO2,2030-01-01 08:00:00,95,%
+stay_A,Patient RASS Score,2030-01-01 08:05:00,0,
+stay_A,Heart Rate,2030-01-01 08:15:00,84,bpm
+stay_A,SpO2,2030-01-01 08:15:00,96,%
+stay_A,Heart Rate,2030-01-01 08:30:00,79,bpm
+stay_A,SpO2,2030-01-01 08:30:00,97,%
+stay_A,Heart Rate,2030-01-01 08:45:00,85,bpm
+stay_A,SpO2,2030-01-01 08:45:00,98,%
+stay_A,Heart Rate,2030-01-01 09:00:00,80,bpm
+stay_A,SpO2,2030-01-01 09:00:00,95,%
+stay_A,Patient RASS Score,2030-01-01 09:10:00,-2,
+stay_A,Heart Rate,2030-01-01 09:15:00,86,bpm
+stay_A,SpO2,2030-01-01 09:15:00,96,%
+stay_A,Heart Rate,2030-01-01 09:30:00,81,bpm
+stay_A,SpO2,2030-01-01 09:30:00,97,%
+stay_A,Heart Rate,2030-01-01 09:45:00,87,bpm
+stay_A,SpO2,2030-01-01 09:45:00,98,%
+stay_A,Heart Rate,2030-01-01 10:00:00,82,bpm
+stay_A,SpO2,2030-01-01 10:00:00,95,%
+stay_A,Heart Rate,2030-01-01 10:15:00,88,bpm
+stay_A,Patient RASS Score,2030-01-01 10:15:00,-2,
+stay_A,SpO2,2030-01-01 10:15:00,96,%
+stay_A,Heart Rate,2030-01-01 10:30:00,83,bpm
+stay_A,SpO2,2030-01-01 10:30:00,97,%
+stay_A,Heart Rate,2030-01-01 10:45:00,78,bpm
+stay_A,SpO2,2030-01-01 10:45:00,98,%

@@ -1,0 +1,10 @@
+pat_id,row_disp_name,recorded_time,meas_value,units
+stay_A,Heart Rate,2026-10-16 08:00:00,78,bpm
+stay_A,SpO2,2026-10-16 08:00:00,95,%
+stay_A,Patient RASS Score,2026-10-16 08:05:00,0,
+stay_A,Heart Rate,2026-10-16 08:15:00,84,bpm
+stay_A,SpO2,2026-10-16 08:15:00,96,%
+stay_A,Heart Rate,2026-10-16 08:30:00,79,bpm
+stay_A,SpO2,2026-10-16 08:30:00,97,%
+stay_A,Heart Rate,2026-10-16 08:45:00,85,bpm
+stay_A,SpO2,2026-10-16 08:45:00,98,%

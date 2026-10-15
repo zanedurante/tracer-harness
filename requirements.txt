@@ -1,0 +1,20 @@
+# Core (the harness, tools, evaluation, cohort statistics and the demo)
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+pyyaml>=6.0
+google-genai>=1.0.0
+
+# OpenAI-compatible backend for open-weight agents served by vLLM
+openai>=1.30
+
+# Viewer and quickstart (python -m tracer.viewer, python -m tracer.quickstart)
+flask>=2.3
+markdown>=3.4
+gdown>=5.0
+imageio-ffmpeg       # bundled ffmpeg for clip splitting and frame extraction when none is on PATH
+
+# Optional
+# google-cloud-storage  # GCS staging of clips on the Vertex AI path (GEMINI_VIDEO_BUCKET)
+# torch transformers pillow accelerate av qwen-vl-utils
+#                       # only for tracer/eval/standalone/*_vlm.py and run_local_vlm.py (local HF models)

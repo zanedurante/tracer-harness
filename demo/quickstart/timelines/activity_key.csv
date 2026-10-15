@@ -1,0 +1,16 @@
+idx,label
+0,patient_grabbing_medical_equipment
+1,patient_using_non_medical_objects
+2,patient_gesticulating
+3,patient_adjusting_bedding
+4,patient_other_arm_movements
+5,patient_position_change
+6,patient_other_torso_movement
+7,patient_looking_at_others
+8,patient_head_turning
+9,patient_leg_ADL_movement
+10,patient_leg_in_bed_movement
+11,patient_communication
+12,clinician_patient_contact
+13,clinician_patient_object_exchange
+14,patient_restrained

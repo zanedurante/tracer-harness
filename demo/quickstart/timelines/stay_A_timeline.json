@@ -1,0 +1,50 @@
+{
+  "pat_id": "stay_A",
+  "icu_start": "2026-10-16 08:00:00",
+  "n_hours": 1,
+  "n_minutes": 60,
+  "demographics": {
+    "age": 68,
+    "age_group": "60-69",
+    "sex": "unspecified"
+  },
+  "encounters": [
+    {
+      "hosp_admsn_time": "2026-10-16T06:00:00",
+      "hosp_disch_time": "2026-10-16T09:00:00",
+      "icu_days": 0.042
+    }
+  ],
+  "events": [
+    {
+      "type": "rass",
+      "time": "2026-10-16T08:05:00+00:00",
+      "data": {
+        "rass_score_int": 0
+      }
+    },
+    {
+      "type": "cam_icu_delirium_test",
+      "time": "2026-10-16T08:30:00+00:00",
+      "data": {
+        "cam_result": "Negative"
+      }
+    },
+    {
+      "type": "med_sedation",
+      "time": "2026-10-16T08:40:00+00:00",
+      "data": {
+        "display_name": "fentanyl 50 mcg/mL injection",
+        "mar_action": "Bolus",
+        "route": "Intravenous",
+        "sig": 25,
+        "dose_unit": "mcg",
+        "infusion_rate": null,
+        "mar_inf_rate_unit": "",
+        "medication_id": "fentanyl",
+        "pharm_class_name": "OPIOID AGONISTS",
+        "thera_class_name": "ANALGESICS"
+      }
+    }
+  ]
+}

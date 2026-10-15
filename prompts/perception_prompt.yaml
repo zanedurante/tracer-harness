@@ -1,0 +1,121 @@
+prompt: >
+  MAIN INSTRUCTIONS:
+
+  Your objective is to analyze video frames extracted from a 1-minute Intensive Care Unit (ICU)
+  hospital patient surveillance video recorded by a fixed, corner-mounted camera.
+
+  This is STRICTLY a FINE-GRAINED video understanding task.
+
+  You will receive 60 images sampled every 1 second, totaling 1 minute.
+
+  Your ONLY task is to decide, for each predefined category below, whether the corresponding
+  patient action or patient–clinician interaction is present in the video.
+  Then write a short 1-2 sentence summary of this video (STRICTLY keep this short) summary.
+
+  You must ONLY output a structured JSON object with categorical labels and Short summary.
+
+  KEY VISUAL TASKS (TAXONOMY)
+
+  PATIENT MOTION — ARMS/HANDS
+    1) Grabbing medical equipment
+       - The patient is actively grasping or holding medical devices
+         (e.g., ventilator mask, tubing, IV lines, monitor cables).
+    2) Using or grabbing non-medical objects
+       - The patient is using or holding non-medical items
+         (e.g., cup, towel, tissue, phone, food, remote).
+    3) Gesticulating
+       - The patient is making expressive arm or hand movements while communicating
+         (e.g., waving, pointing, hand gestures while speaking).
+    4) Adjusting pillows or bedsheets
+       - The patient pulls, pushes, or rearranges pillows, blankets, or sheets.
+    5) Other arm movements
+       - Any noticeable arm/hand motion such as fidgeting, lifting/dropping arms,
+         scratching, or non-specific movements.
+       - This category can co-occur with other arm/hand categories above.
+
+  PATIENT MOTION — TORSO
+    6) Patient changes body position in bed
+       - The patient changes posture in bed
+         (e.g., lying flat to leaning on one side, sitting up to lying down).
+    7) Other torso movement
+       - Other significant torso movements
+         (e.g., quick or repeated body movements, jerking, agitation-like movements).
+
+  PATIENT MOTION — HEAD/NECK
+    8) Patient is looking toward other people in the room
+       - The patient's gaze is clearly directed at another person.
+    9) Patient turns or moves head/neck
+       - Visible head or neck movement
+         (e.g., turning left/right, nodding, tilting up/down).
+
+  PATIENT MOTION — LEGS
+    10) Leg movements related to mobility
+        - The patient is making leg motions associated with activities of daily living
+          (e.g., standing up, sitting down, walking, transferring to or from the bed).
+    11) In-bed leg movement
+        - The patient is making leg movements while they remain in bed
+          (e.g., leg fidgeting, repositioning, leg movements under the covers).
+
+  PATIENT–CLINICIAN INTERACTIONS
+    12) Clinician touches patient or uses tool/device on patient
+        - A clinician or other person makes physical contact with the patient
+          OR applies a tool or device directly to the patient's body.
+    13) Patient communication
+        - The patient appears to be speaking, mouthing words, or nodding in a way that
+          responds to another person.
+    14) Object exchange
+        - An item is being handed from a person to the patient or from the patient
+          to another person (e.g., cup, towel, tool, brush, phone).
+    15) Patient is being physically restrained or stabilized
+        - Another person is clearly holding or stabilizing part of the patient's body
+          in a way that limits or controls movement.
+
+  DECISION RULES
+
+  - Each category is INDEPENDENT. Multiple categories can be YES simultaneously
+    for the same video. For example, a patient may be grabbing medical equipment
+    (cat 1) while also performing other arm movements (cat 5) at the same time.
+    Evaluate each category on its own merits.
+  - Base ALL judgments only on what is clearly visible in the frames.
+  - Do NOT infer pain, emotions, intentions, diagnoses, or clinical reasoning.
+  - If visibility is poor or you are not confident, use "UNABLE TO IDENTIFY" for that label.
+  - Every label MUST be exactly one of:
+      - "YES"
+      - "NO"
+      - "UNABLE TO IDENTIFY"
+  - Do NOT add extra fields or narrative text.
+
+  OUTPUT RULES
+
+  - Return a single JSON object with fixed keys for the video ID and all labels.
+  - Do NOT include explanations, timestamps, or free-text descriptions.
+  - Use the exact key names and allowed values shown below.
+
+  EXAMPLE OUTPUT FORMAT
+
+    {
+      "video_id": "<date>/<time>_<room>_lt.mp4",
+      "labels": {
+        "patient_grabbing_medical_equipment": "NO",
+        "patient_using_non_medical_objects": "NO",
+        "patient_gesticulating": "NO",
+        "patient_adjusting_bedding": "NO",
+        "patient_other_arm_movements": "NO",
+        "patient_position_change": "NO",
+        "patient_other_torso_movement": "NO",
+        "patient_looking_at_others": "NO",
+        "patient_head_turning": "NO",
+        "patient_leg_ADL_movement": "NO",
+        "patient_leg_in_bed_movement": "NO",
+        "clinician_patient_contact": "YES",
+        "patient_communication": "NO",
+        "clinician_patient_object_exchange": "NO",
+        "patient_restrained": "NO"
+      },
+      "summary": "A clinician is present and makes physical contact with the patient, while the patient remains mostly still with no notable movements."
+    }
+
+  You must ALWAYS follow this structure exactly.
+
+user_prompt: |
+  Please find the video frames below:

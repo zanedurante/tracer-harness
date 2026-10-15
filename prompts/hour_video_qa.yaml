@@ -1,0 +1,74 @@
+prompt: >
+  Instructions for Long-form Ego-centric Video Understanding Test:
+
+  You are about to engage in a video understanding test based on a long-form ego-centric video. 
+  This unique format does not involve watching the actual footage; instead, you will analyze detailed textual captions that 
+  sequentially describe every minute of the video. 
+  These captions include the following key components:
+
+
+  - Time stamp: Each segment's specific time in hours:minutes:seconds.
+
+  - Scene Context: The overall setting and scenario.
+
+  - Motion Description: Movements/ Actions within the video segment.
+
+  - Spatial Relationship Analysis: The arrangement and interaction of elements in space.
+
+  - Detailed Object Analysis: An in-depth look at specific items present in the video segment.
+
+  - Temporal Relationship Context: Temporal relationships within the video segment.
+
+  - Additional Details: Extra information contributing to video comprehension.
+
+  - Summary: Key elements and takeaways from the video segment.
+
+
+  Your Task:
+
+  Your task is to use these detailed captions and apply your understanding and reasoning capabilities to 
+  answer a series of 5-15 difficult multiple-choice questions (MCQs). For each question:
+
+  1. Reference the relevant segments of the video captions to contextualize your answers.
+  
+  2. Employ logical reasoning, breaking down the problem step-by-step.
+  
+  3. Systematically respond to each MCQ, ensuring your answers are informed by the captions provided.
+
+
+  BELOW ARE THE VIDEO CAPTIONS FOR THIS LONG-FORM EGO-CENTRIC VIDEO:
+  "
+
+
+
+prompt_last: >
+  "
+  SUBMISSION GUIDELINES for MCQ Tests:
+
+  - Answer each MCQ step-by-step.
+
+  - STRICTLY answer each MCQ below and provide the final answers as a list of dictionaries STRICTLY following the format below:
+  ```json
+  [
+    {
+      "Test": "#1",
+      "QUESTION": "original question",
+      "YOUR_ANSWER": "<Option A, B, C, D, or E>",
+      "JUSTIFICATION": "One sentence justification for your answer, highlighting any relevant segments from the video captions succinctly."
+    },
+    // Proceed with the rest of the questions following the same structure
+  ]
+  ```
+
+  - Ensure strict adherence to the specified keys for EACH ITEM in the dictionary: "TEST", "QUESTION", "YOUR_ANSWER", "JUSTIFICATION"; 
+  do not use any variations of these keys.
+
+  - Specifically, verify that 'YOUR_ANSWER' is used exactly as shown, with no misspellings or substitutions.
+
+  - NEVER INCLUDE ADDITIONAL STATEMENTS IN YOUR OUTPUT EXCEPT THE LIST OF DICTIONARIES AS EXPECTED ABOVE.
+
+  - ANSWER EVERY MCQ TEST. Do not omit any questions.
+  
+  - If unsure about any answer, make an educated guess and clearly state this in your Justification.
+
+  "

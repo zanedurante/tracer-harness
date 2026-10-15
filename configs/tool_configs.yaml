@@ -1,0 +1,60 @@
+# Tool configurations: the rows of the paper's harness-ablation table
+# (Table 3) and the per-model / single-source appendix tables, mapped to the
+# named configurations of tracer/harness/configs.py and to tool sets.
+#
+# Every configuration except Text-only includes the scaffold pair
+# (get_patient_metadata, convert_utc_local). Historical aliases resolve to
+# the identical tool set (same cache signature).
+
+families:
+  scaffold: [get_patient_metadata, convert_utc_local]
+  timeline: [get_atomic_actions, query_actions, find_first_occurrence, find_moments_of_interest]
+  report:   [list_hourly_reports, get_hourly_report]
+  ehr:      [query_medications, query_flowsheet]
+  video:    [query_video_minute]
+
+rows:
+  # Single toolset performance (Table 3, top block; appendix "Single Evidence Sources")
+  - paper_row: "Text-only"
+    config: text_only
+    families: []
+    aliases: [blind]
+  - paper_row: "Timeline only"
+    config: timeline_only
+    families: [scaffold, timeline]
+    aliases: [structured, w_timeline]
+  - paper_row: "Reports only"
+    config: reports_only
+    families: [scaffold, report]
+    aliases: [narrative, stack_hour]
+  - paper_row: "EHR only"
+    config: ehr_only
+    families: [scaffold, ehr]
+  - paper_row: "Video only"
+    config: video_only
+    families: [scaffold, video]
+  # Cumulative toolset performance (Table 3, bottom block; appendix "Per-Model Cumulative Ablation")
+  - paper_row: "w/ timeline"          # identical to Timeline only ("+ timeline" in the per-model table)
+    config: w_timeline
+    families: [scaffold, timeline]
+  - paper_row: "+ reports"
+    config: plus_reports
+    families: [scaffold, timeline, report]
+    aliases: [stack_hour_minute]
+  - paper_row: "+ EHR"
+    config: plus_ehr
+    families: [scaffold, timeline, report, ehr]
+    aliases: [stack_hour_minute_ehr_v2]
+  - paper_row: "+ video (TRACER)"     # the full harness, all eleven tools
+    config: tracer
+    families: [scaffold, timeline, report, ehr, video]
+    aliases: [plus_video, full, all_tools, stack_hour_minute_ehr_v2_video]
+
+# Sweep command reproducing the whole table for one agent model
+# (5 gold positions, the guided prompt variant, D2 video description):
+#   python -m tracer.harness.sweep --csv <questions.csv> \
+#       --configs text_only,timeline_only,reports_only,ehr_only,video_only,plus_reports,plus_ehr,tracer \
+#       --model gemini-3.1-flash-lite --positions 5 --workers 6 --run-name table3_lite
+# Rows with a separate perceiver (open-weight agent, Gemini video tool):
+#   VIDEO_TOOL_MODEL=gemini-3.1-flash-lite OPENAI_BASE_URL=http://localhost:8000/v1 \
+#       python -m tracer.harness.sweep ... --model qwen3.5-9b

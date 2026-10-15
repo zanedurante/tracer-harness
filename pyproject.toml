@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tracer-harness"
+version = "1.0.0"
+description = "TRACER: A Multimodal Harness for Patient Care in Hospitals"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "Zane Durante"},
+    {name = "Paul Tang"},
+    {name = "Keshigeyan Chandrasegaran"},
+    {name = "Amit Kaushal"},
+    {name = "Shrinidhi Kowshika Lakshmikanth"},
+    {name = "Feolu Kolawole"},
+    {name = "June (Yu Jun) Zheng"},
+    {name = "Yifan Geng"},
+    {name = "Shobhit Agarwal"},
+    {name = "Kevin Schulman"},
+    {name = "Juan Carlos Niebles"},
+    {name = "Ehsan Adeli"},
+    {name = "Arnold Milstein"},
+    {name = "Li Fei-Fei"},
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "pyyaml>=6.0",
+    "google-genai>=1.0.0",
+    "openai>=1.30",
+]
+
+[project.optional-dependencies]
+viewer = ["flask>=2.3", "markdown>=3.4", "gdown>=5.0", "imageio-ffmpeg"]
+ffmpeg = ["imageio-ffmpeg"]
+gcs = ["google-cloud-storage"]
+
+[tool.setuptools.packages.find]
+include = ["tracer*"]
+
+[tool.setuptools.package-data]
+tracer = ["perception/taxonomy/*.csv", "viewer/templates/*.html"]

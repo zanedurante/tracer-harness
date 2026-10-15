@@ -1,0 +1,361 @@
+minute,view,utc_hhmm,patient_grabbing_medical_equipment,patient_using_non_medical_objects,patient_gesticulating,patient_adjusting_bedding,patient_other_arm_movements,patient_position_change,patient_other_torso_movement,patient_looking_at_others,patient_head_turning,patient_leg_ADL_movement,patient_leg_in_bed_movement,patient_communication,clinician_patient_contact,clinician_patient_object_exchange,patient_restrained,caption
+0,lt,08_00,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+0,rt,08_00,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+1,lt,08_01,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+1,rt,08_01,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+2,lt,08_02,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+2,rt,08_02,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+3,lt,08_03,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+3,rt,08_03,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+4,lt,08_04,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+4,rt,08_04,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+5,lt,08_05,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+5,rt,08_05,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+6,lt,08_06,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+6,rt,08_06,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+7,lt,08_07,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+7,rt,08_07,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+8,lt,08_08,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient turns the head.
+8,rt,08_08,NO,NO,NO,NO,YES,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient turns the head.
+9,lt,08_09,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+9,rt,08_09,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+10,lt,08_10,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+10,rt,08_10,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+11,lt,08_11,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient turns the head.
+11,rt,08_11,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient turns the head.
+12,lt,08_12,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+12,rt,08_12,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+13,lt,08_13,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+13,rt,08_13,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+14,lt,08_14,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+14,rt,08_14,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+15,lt,08_15,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+15,rt,08_15,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+16,lt,08_16,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+16,rt,08_16,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+17,lt,08_17,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+17,rt,08_17,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+18,lt,08_18,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+18,rt,08_18,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+19,lt,08_19,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+19,rt,08_19,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+20,lt,08_20,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+20,rt,08_20,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+21,lt,08_21,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+21,rt,08_21,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+22,lt,08_22,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+22,rt,08_22,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+23,lt,08_23,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+23,rt,08_23,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+24,lt,08_24,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+24,rt,08_24,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+25,lt,08_25,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+25,rt,08_25,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+26,lt,08_26,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+26,rt,08_26,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+27,lt,08_27,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient turns the head.
+27,rt,08_27,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient turns the head.
+28,lt,08_28,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+28,rt,08_28,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+29,lt,08_29,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+29,rt,08_29,NO,NO,NO,NO,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+30,lt,08_30,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+30,rt,08_30,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+31,lt,08_31,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+31,rt,08_31,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+32,lt,08_32,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+32,rt,08_32,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+33,lt,08_33,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+33,rt,08_33,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+34,lt,08_34,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+34,rt,08_34,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+35,lt,08_35,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+35,rt,08_35,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+36,lt,08_36,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+36,rt,08_36,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+37,lt,08_37,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's hand reaches for the tubing near the face; the patient's arm shifts on the bed.
+37,rt,08_37,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's hand reaches for the tubing near the face; the patient's arm shifts on the bed.
+38,lt,08_38,YES,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's hand reaches for the tubing near the face; the patient's arm shifts on the bed; the patient turns the head.
+38,rt,08_38,YES,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's hand reaches for the tubing near the face; the patient's arm shifts on the bed; the patient turns the head.
+39,lt,08_39,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+39,rt,08_39,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+40,lt,08_40,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+40,rt,08_40,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+41,lt,08_41,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,YES,NO,NO,NO,NO,During this minute the patient turns the head; the patient's legs move under the covers.
+41,rt,08_41,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,YES,NO,NO,NO,NO,During this minute the patient turns the head; the patient's legs move under the covers.
+42,lt,08_42,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+42,rt,08_42,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+43,lt,08_43,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient turns the head.
+43,rt,08_43,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient turns the head.
+44,lt,08_44,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+44,rt,08_44,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+45,lt,08_45,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+45,rt,08_45,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+46,lt,08_46,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+46,rt,08_46,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+47,lt,08_47,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+47,rt,08_47,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+48,lt,08_48,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+48,rt,08_48,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+49,lt,08_49,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+49,rt,08_49,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+50,lt,08_50,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+50,rt,08_50,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+51,lt,08_51,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+51,rt,08_51,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+52,lt,08_52,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+52,rt,08_52,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+53,lt,08_53,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+53,rt,08_53,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+54,lt,08_54,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+54,rt,08_54,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+55,lt,08_55,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+55,rt,08_55,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+56,lt,08_56,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+56,rt,08_56,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+57,lt,08_57,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+57,rt,08_57,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+58,lt,08_58,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+58,rt,08_58,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+59,lt,08_59,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+59,rt,08_59,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+60,lt,09_00,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+60,rt,09_00,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+61,lt,09_01,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+61,rt,09_01,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+62,lt,09_02,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+62,rt,09_02,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+63,lt,09_03,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+63,rt,09_03,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+64,lt,09_04,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+64,rt,09_04,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+65,lt,09_05,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+65,rt,09_05,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+66,lt,09_06,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+66,rt,09_06,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+67,lt,09_07,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+67,rt,09_07,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+68,lt,09_08,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+68,rt,09_08,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+69,lt,09_09,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+69,rt,09_09,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+70,lt,09_10,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,YES,NO,NO,During this minute the patient looks toward a person at the bedside; a clinician touches the patient.
+70,rt,09_10,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,YES,NO,NO,During this minute the patient looks toward a person at the bedside; a clinician touches the patient.
+71,lt,09_11,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,YES,NO,NO,During this minute the patient looks toward a person at the bedside; a clinician touches the patient.
+71,rt,09_11,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,YES,NO,NO,During this minute the patient looks toward a person at the bedside; a clinician touches the patient.
+72,lt,09_12,NO,NO,NO,NO,YES,NO,NO,YES,NO,NO,NO,YES,YES,NO,NO,During this minute the patient's arm shifts on the bed; the patient looks toward a person at the bedside; the patient appears to speak to a clinician.
+72,rt,09_12,NO,NO,NO,NO,YES,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,YES,YES,NO,NO,During this minute the patient's arm shifts on the bed; the patient looks toward a person at the bedside; the patient appears to speak to a clinician.
+73,lt,09_13,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,YES,YES,NO,NO,During this minute the patient looks toward a person at the bedside; the patient appears to speak to a clinician; a clinician touches the patient.
+73,rt,09_13,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,YES,YES,NO,NO,During this minute the patient looks toward a person at the bedside; the patient appears to speak to a clinician; a clinician touches the patient.
+74,lt,09_14,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,YES,YES,NO,NO,During this minute the patient looks toward a person at the bedside; the patient appears to speak to a clinician; a clinician touches the patient.
+74,rt,09_14,NO,NO,NO,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,YES,YES,NO,NO,During this minute the patient looks toward a person at the bedside; the patient appears to speak to a clinician; a clinician touches the patient.
+75,lt,09_15,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,YES,YES,NO,NO,During this minute the patient gestures with one hand; the patient's legs move under the covers; the patient appears to speak to a clinician.
+75,rt,09_15,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,YES,YES,NO,NO,During this minute the patient gestures with one hand; the patient's legs move under the covers; the patient appears to speak to a clinician.
+76,lt,09_16,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,During this minute the patient appears to speak to a clinician; a clinician touches the patient.
+76,rt,09_16,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,During this minute the patient appears to speak to a clinician; a clinician touches the patient.
+77,lt,09_17,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+77,rt,09_17,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+78,lt,09_18,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+78,rt,09_18,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+79,lt,09_19,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+79,rt,09_19,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+80,lt,09_20,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+80,rt,09_20,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+81,lt,09_21,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+81,rt,09_21,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+82,lt,09_22,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+82,rt,09_22,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+83,lt,09_23,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+83,rt,09_23,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+84,lt,09_24,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,YES,YES,NO,During this minute the patient turns the head; a clinician touches the patient; a clinician hands the patient an object.
+84,rt,09_24,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,YES,UNABLE TO IDENTIFY,NO,During this minute the patient turns the head; a clinician touches the patient; a clinician hands the patient an object.
+85,lt,09_25,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,During this minute the patient turns the head; a clinician touches the patient.
+85,rt,09_25,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,During this minute the patient turns the head; a clinician touches the patient.
+86,lt,09_26,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+86,rt,09_26,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+87,lt,09_27,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+87,rt,09_27,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+88,lt,09_28,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+88,rt,09_28,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+89,lt,09_29,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+89,rt,09_29,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+90,lt,09_30,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+90,rt,09_30,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+91,lt,09_31,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+91,rt,09_31,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+92,lt,09_32,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+92,rt,09_32,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+93,lt,09_33,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+93,rt,09_33,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+94,lt,09_34,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+94,rt,09_34,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+95,lt,09_35,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient pulls at the blanket.
+95,rt,09_35,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient pulls at the blanket.
+96,lt,09_36,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient pulls at the blanket.
+96,rt,09_36,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient pulls at the blanket.
+97,lt,09_37,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+97,rt,09_37,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+98,lt,09_38,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+98,rt,09_38,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+99,lt,09_39,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+99,rt,09_39,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+100,lt,09_40,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+100,rt,09_40,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+101,lt,09_41,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+101,rt,09_41,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+102,lt,09_42,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+102,rt,09_42,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+103,lt,09_43,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+103,rt,09_43,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+104,lt,09_44,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+104,rt,09_44,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+105,lt,09_45,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+105,rt,09_45,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+106,lt,09_46,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+106,rt,09_46,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+107,lt,09_47,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+107,rt,09_47,NO,NO,NO,NO,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+108,lt,09_48,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+108,rt,09_48,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+109,lt,09_49,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+109,rt,09_49,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+110,lt,09_50,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+110,rt,09_50,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+111,lt,09_51,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+111,rt,09_51,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+112,lt,09_52,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+112,rt,09_52,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+113,lt,09_53,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+113,rt,09_53,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+114,lt,09_54,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+114,rt,09_54,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+115,lt,09_55,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+115,rt,09_55,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+116,lt,09_56,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+116,rt,09_56,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+117,lt,09_57,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+117,rt,09_57,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+118,lt,09_58,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+118,rt,09_58,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+119,lt,09_59,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+119,rt,09_59,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+120,lt,10_00,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+120,rt,10_00,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+121,lt,10_01,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's hand reaches for the tubing near the face; the patient turns the head.
+121,rt,10_01,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's hand reaches for the tubing near the face; the patient turns the head.
+122,lt,10_02,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+122,rt,10_02,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+123,lt,10_03,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+123,rt,10_03,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+124,lt,10_04,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+124,rt,10_04,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+125,lt,10_05,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+125,rt,10_05,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient's legs move under the covers.
+126,lt,10_06,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+126,rt,10_06,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+127,lt,10_07,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+127,rt,10_07,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+128,lt,10_08,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+128,rt,10_08,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+129,lt,10_09,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+129,rt,10_09,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+130,lt,10_10,NO,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient rolls partly onto one side; the patient sits up and swings the legs over the bed edge.
+130,rt,10_10,NO,NO,NO,NO,NO,YES,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,During this minute the patient rolls partly onto one side; the patient sits up and swings the legs over the bed edge.
+131,lt,10_11,NO,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient rolls partly onto one side; the patient sits up and swings the legs over the bed edge.
+131,rt,10_11,NO,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient rolls partly onto one side; the patient sits up and swings the legs over the bed edge.
+132,lt,10_12,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge; the patient's legs move under the covers.
+132,rt,10_12,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,NO,UNABLE TO IDENTIFY,YES,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge; the patient's legs move under the covers.
+133,lt,10_13,NO,YES,NO,NO,YES,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient's arm shifts on the bed; the patient turns the head.
+133,rt,10_13,NO,YES,NO,NO,YES,NO,NO,NO,YES,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient's arm shifts on the bed; the patient turns the head.
+134,lt,10_14,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+134,rt,10_14,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+135,lt,10_15,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+135,rt,10_15,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+136,lt,10_16,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+136,rt,10_16,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+137,lt,10_17,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+137,rt,10_17,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+138,lt,10_18,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+138,rt,10_18,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+139,lt,10_19,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+139,rt,10_19,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient holds a cup; the patient sits up and swings the legs over the bed edge.
+140,lt,10_20,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,During this minute the patient sits up and swings the legs over the bed edge; the patient's legs move under the covers.
+140,rt,10_20,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,YES,NO,NO,NO,NO,During this minute the patient sits up and swings the legs over the bed edge; the patient's legs move under the covers.
+141,lt,10_21,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,During this minute the patient sits up and swings the legs over the bed edge.
+141,rt,10_21,NO,NO,NO,NO,NO,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,During this minute the patient sits up and swings the legs over the bed edge.
+142,lt,10_22,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+142,rt,10_22,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+143,lt,10_23,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+143,rt,10_23,NO,NO,NO,NO,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+144,lt,10_24,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient turns the head.
+144,rt,10_24,NO,NO,NO,NO,YES,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed; the patient turns the head.
+145,lt,10_25,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+145,rt,10_25,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+146,lt,10_26,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+146,rt,10_26,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+147,lt,10_27,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+147,rt,10_27,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+148,lt,10_28,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+148,rt,10_28,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+149,lt,10_29,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+149,rt,10_29,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+150,lt,10_30,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+150,rt,10_30,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+151,lt,10_31,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+151,rt,10_31,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+152,lt,10_32,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+152,rt,10_32,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+153,lt,10_33,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+153,rt,10_33,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+154,lt,10_34,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+154,rt,10_34,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute a clinician touches the patient.
+155,lt,10_35,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute the patient's arm shifts on the bed; a clinician touches the patient.
+155,rt,10_35,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,During this minute the patient's arm shifts on the bed; a clinician touches the patient.
+156,lt,10_36,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+156,rt,10_36,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+157,lt,10_37,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+157,rt,10_37,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+158,lt,10_38,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+158,rt,10_38,NO,NO,NO,NO,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+159,lt,10_39,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+159,rt,10_39,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+160,lt,10_40,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+160,rt,10_40,NO,NO,NO,NO,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+161,lt,10_41,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+161,rt,10_41,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,During this minute the patient turns the head.
+162,lt,10_42,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+162,rt,10_42,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+163,lt,10_43,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+163,rt,10_43,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+164,lt,10_44,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+164,rt,10_44,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+165,lt,10_45,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+165,rt,10_45,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+166,lt,10_46,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+166,rt,10_46,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+167,lt,10_47,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+167,rt,10_47,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+168,lt,10_48,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+168,rt,10_48,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+169,lt,10_49,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+169,rt,10_49,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+170,lt,10_50,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+170,rt,10_50,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+171,lt,10_51,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+171,rt,10_51,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+172,lt,10_52,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+172,rt,10_52,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+173,lt,10_53,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+173,rt,10_53,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+174,lt,10_54,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The room is quiet and the patient does not move.
+174,rt,10_54,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+175,lt,10_55,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+175,rt,10_55,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient lies still in bed; no one else is in the room.
+176,lt,10_56,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+176,rt,10_56,NO,NO,NO,NO,UNABLE TO IDENTIFY,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+177,lt,10_57,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+177,rt,10_57,NO,NO,NO,NO,YES,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,During this minute the patient's arm shifts on the bed.
+178,lt,10_58,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+178,rt,10_58,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,The patient rests quietly with no visible movement.
+179,lt,10_59,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
+179,rt,10_59,NO,NO,NO,NO,NO,NO,NO,NO,NO,NO,YES,NO,NO,NO,NO,During this minute the patient's legs move under the covers.
